@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    background-color: #ff6b11;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    padding: 40px 40px 60px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+form h1{
+    text-align: center;
+    margin-bottom: 1vw;
+    font-size: 35px;
+    color: #ff6b11;
+}
+
+form label {
+    display: inline-block;
+    color: #ff6b11;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+form input {
+    margin-bottom: 10px;
+    width: 300px;
+    outline: none;
+    border: 1px solid #ff6b11;
+    padding: 10px 8px;
+    border-radius: 10px;
+}
+
+form input::placeholder {
+    color: #ff9b37;
+    user-select: none;
+}
+
+form input:focus {
+    background: #f2f2f2;
+    border: 3px solid #ff6b11;
+}
+
+form button {
+    margin: 10px 0;
+    width: 150px;
+    outline: none;
+    border: 1px solid #ff6b11;
+    color: #ff6b11;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 40px;
+    padding: 10px 8px;
+    background-color: transparent;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+form button:hover {
+    background-color: #ff6b11;
+    color: #fff;
+    cursor: pointer;
+}
+
+form p {
+    font-size: 17px;
+    text-align: center;
+    color: #ff6b11;
+}
+
+form p a {
+    text-decoration: none;
+    color: #ff9b37;
+    font-weight: 600;
+}
+form .fpass{
+    color: #ff6b11;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 18px;
+}
+form h6{
+    font-size: 14px;
+    color: #ff6b11;
+    margin-bottom: 1vw;
+}
+.m-btn{
+    margin: 12px 0;
+    width: 150px;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 40px;
+    padding: 10px 8px;
+    background-color: transparent;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+.m-btn:hover{
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+}
